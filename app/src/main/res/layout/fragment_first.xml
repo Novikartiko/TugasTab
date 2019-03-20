@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent" android:layout_height="match_parent"
+             tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="#C2F0EB"
+                  android:orientation="vertical"
+                  android:padding="16dp">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="My Profil"
+                  android:textSize="36sp"
+                  android:textStyle="bold"
+                  android:textColor="#2D85AD"
+                  android:textAlignment="center"/>
+        <android.support.v7.widget.CardView
+                android:layout_marginTop="16dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/colorAccent"
+                android:layout_gravity="center_horizontal">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/nopek"/>
+        </android.support.v7.widget.CardView>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="Nama : Novikartiko H.P.H"
+                  android:textColor="#E91E63"
+                  android:textSize="20sp"
+                  android:textAlignment="center"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="NPM : 16670066"
+                  android:textColor="#E91E63"
+                  android:textSize="20sp"
+                  android:textAlignment="center"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="Alamat : Jepara"
+                  android:textColor="#E91E63"
+                  android:textSize="20sp"
+                  android:textAlignment="center"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="Hobi : Bercanda"
+                  android:textColor="#E91E63"
+                  android:textSize="20sp"
+                  android:textAlignment="center"/>
+    </LinearLayout>
+
+</FrameLayout>

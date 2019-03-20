@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".FourthFragment">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="#C2F0EB">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="Roy Kiyoshi"
+                  android:textSize="36sp"
+                  android:textStyle="bold"
+                  android:textColor="#2D85AD"
+                  android:textAlignment="center"/>
+        <android.support.v7.widget.CardView
+                android:layout_marginTop="16dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/colorAccent"
+                android:layout_gravity="center_horizontal">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/roy"/>
+        </android.support.v7.widget.CardView>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="10dp"
+                      android:text="Roy Kiyoshi (lahir 24 Februari 1987; umur 32 tahun) adalah seorang paranormal asal Indonesia. Roy merupakan seorang paranormal yang sedang naik daun berkat penampilannya di acara Karma dan Karma The Series yang tayang di ANTV.[1][2] Kini Roy Kiyoshi mengisi program baru di ANTV, Menembus Mata Bathin dan akan ada juga serialnya, Menembus Mata Bathin The Series.
+"
+                      android:textAlignment="center"/>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
+
